@@ -47,6 +47,9 @@ public class AddressBookRepository {
 				myContacts.add(persons);
 				break;
 				
+				/*
+				 * Print contacts list
+				 */
 			case 2:
 				System.out.println("------------------------------------------------------------------");
 				Iterator<Person> printContacts = myContacts.iterator();
